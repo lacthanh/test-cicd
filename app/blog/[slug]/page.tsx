@@ -10,6 +10,7 @@ export async function generateMetadata({ params }: Params) {
 export function generateStaticParams() {
   return [ { slug: "" } ]
 }
+
 export default function Page({ params }: Params) {
   return <>
   <h1>Slug: {params.slug}</h1>
